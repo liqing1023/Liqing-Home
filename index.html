@@ -192,9 +192,6 @@
             border-top: 1px solid #e2efea;
         }
 
-        /* ============================================================
-   响应式适配终极方案（替换掉你代码里原有的所有 @media 部分）
-   ============================================================ */
 
 /* 1. 当屏幕小于 650px 时（针对手机）：缩小字体、间距，导航栏换行 */
 @media (max-width: 650px) {
@@ -561,71 +558,71 @@
             <div><strong style="color: #266454; font-size: 1.1rem;">《我的前半生》</strong><p style="font-size: 0.85rem; color: #6c9c90; margin-top: 5px;">“路要自己一步步走，苦要自己一口口吃。”</p></div>
         </div>
     </div>
-</div>
+
     <!-- 技能·生活 -->
-<div id="about" class="page">
-    <h2>🛠️ Professional Skills</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; margin-bottom: 3rem;">
-        <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
-            <strong style="color: #266454;">🐍 Data Science</strong><br>
-            <span style="font-size: 0.9rem; color: #666;">Python (Xarray/Pandas) & MATLAB<br>高度自定义绘图 (Matplotlib/Seaborn)</span>
+    <div id="about" class="page">
+        <h2>🛠️ Professional Skills</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; margin-bottom: 3rem;">
+            <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
+                <strong style="color: #266454;">🐍 Data Science</strong><br>
+                <span style="font-size: 0.9rem; color: #666;">Python (Xarray/Pandas) & MATLAB<br>高度自定义绘图 (Matplotlib/Seaborn)</span>
+            </div>
+            <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
+                <strong style="color: #266454;">🌍 Geospatial Analysis</strong><br>
+                <span style="font-size: 0.9rem; color: #666;">QGIS / ArcGIS / ERA5 Reanalysis<br>气溶胶时空分布模拟</span>
+            </div>
+            <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
+                <strong style="color: #266454;">🔬 Atmospheric Research</strong><br>
+                <span style="font-size: 0.9rem; color: #666;">NPF & Growth Kinetics / Mass Spec<br>PNSD & Condensation Sink Analysis</span>
+            </div>
+            <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
+                <strong style="color: #266454;">🗣️ Communication</strong><br>
+                <span style="font-size: 0.9rem; color: #666;">Academic Writing / IELTS / CET-6<br>能用英语讲好科研故事</span>
+            </div>
         </div>
-        <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
-            <strong style="color: #266454;">🌍 Geospatial Analysis</strong><br>
-            <span style="font-size: 0.9rem; color: #666;">QGIS / ArcGIS / ERA5 Reanalysis<br>气溶胶时空分布模拟</span>
+    
+        <h2>📍 Journey Log</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 3rem;">
+            <span style="background: #f0f7f5; border: 1px dashed #266454; color: #266454; padding: 8px 15px; border-radius: 12px; font-weight: 500;">📍 南京 · NJU</span>
+            <span style="background: #f0f7f5; border: 1px dashed #266454; color: #266454; padding: 8px 15px; border-radius: 12px; font-weight: 500;">🚢 赫尔辛基 · UOH</span>
+            <span style="background: #f0f7f5; border: 1px dashed #266454; color: #266454; padding: 8px 15px; border-radius: 12px; font-weight: 500;">☀️ 塞浦路斯 · SPICY</span>
+            <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">武汉</span>
+            <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">北京</span>
+            <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">香港</span>
+            <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">济南</span>
+            <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">杭州</span>
+            <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">广州</span>
+            <span style="background: #fcfcfc; color: #d1d1d1; padding: 8px 15px; border-radius: 12px; font-style: italic;">Next station is... 🚀</span>
         </div>
-        <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
-            <strong style="color: #266454;">🔬 Atmospheric Research</strong><br>
-            <span style="font-size: 0.9rem; color: #666;">NPF & Growth Kinetics / Mass Spec<br>PNSD & Condensation Sink Analysis</span>
+    
+        <h2>📸 Photo Moments</h2>
+        <div style="background: #f8fbf9; border: 2px dashed #d1e2dd; border-radius: 24px; padding: 30px; text-align: center; color: #6c9c90;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">⏳</div>
+            <p style="font-weight: 600; font-size: 1.1rem; margin-bottom: 10px;">摄影师正在赶来的路上...</p>
+            <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">
+                ( 这里的风景太美，Liqing 正在忙着采样/散步/拍猫，照片整理中... )<br>
+                <span style="display: inline-block; margin-top: 15px; background: #fff; padding: 5px 15px; border-radius: 15px; font-size: 0.8rem; border: 1px solid #edf5f2;">
+                    Coming soon: 🌇 青岛海边的日落 | ❄ 赫尔辛基的雪 | 🌸 南大的花
+                </span>
+            </p>
         </div>
-        <div class="card-light" style="border-left: 5px solid #266454; padding: 1.2rem; background: #fbfefd; border-radius: 20px;">
-            <strong style="color: #266454;">🗣️ Communication</strong><br>
-            <span style="font-size: 0.9rem; color: #666;">Academic Writing / IELTS / CET-6<br>能用英语讲好科研故事</span>
+    
+        <h2 style="margin-top: 3rem;">🍜 Flavors & ⛰️ Outdoors</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+            <span class="tag">☕ 拿铁 (拒绝美式的酸苦)</span>
+            <span class="tag">🍲 湖北藕汤 & 热干面 (乡愁)</span>
+            <span class="tag">🥘 芬兰三文鱼</span>
+            <span class="tag" style="background: #266454; color: white;">🥾 徒步 & 爬山</span>
+            <span class="tag" style="background: #266454; color: white;">🌅 追逐日落</span>
+            <span class="tag">🧩 Jigsaw puzzles</span>
         </div>
-    </div>
-
-    <h2>📍 Journey Log</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 3rem;">
-        <span style="background: #f0f7f5; border: 1px dashed #266454; color: #266454; padding: 8px 15px; border-radius: 12px; font-weight: 500;">📍 南京 · NJU</span>
-        <span style="background: #f0f7f5; border: 1px dashed #266454; color: #266454; padding: 8px 15px; border-radius: 12px; font-weight: 500;">🚢 赫尔辛基 · UOH</span>
-        <span style="background: #f0f7f5; border: 1px dashed #266454; color: #266454; padding: 8px 15px; border-radius: 12px; font-weight: 500;">☀️ 塞浦路斯 · SPICY</span>
-        <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">武汉</span>
-        <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">北京</span>
-        <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">香港</span>
-        <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">济南</span>
-        <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">杭州</span>
-        <span style="background: #fff; border: 1px solid #edf5f2; color: #6c9c90; padding: 8px 15px; border-radius: 12px;">广州</span>
-        <span style="background: #fcfcfc; color: #d1d1d1; padding: 8px 15px; border-radius: 12px; font-style: italic;">Next station is... 🚀</span>
-    </div>
-
-    <h2>📸 Photo Moments</h2>
-    <div style="background: #f8fbf9; border: 2px dashed #d1e2dd; border-radius: 24px; padding: 30px; text-align: center; color: #6c9c90;">
-        <div style="font-size: 2.5rem; margin-bottom: 15px;">⏳</div>
-        <p style="font-weight: 600; font-size: 1.1rem; margin-bottom: 10px;">摄影师正在赶来的路上...</p>
-        <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">
-            ( 这里的风景太美，Liqing 正在忙着采样/散步/拍猫，照片整理中... )<br>
-            <span style="display: inline-block; margin-top: 15px; background: #fff; padding: 5px 15px; border-radius: 15px; font-size: 0.8rem; border: 1px solid #edf5f2;">
-                Coming soon: 🌇 青岛海边的日落 | ❄ 赫尔辛基的雪 | 🌸 南大的花
-            </span>
-        </p>
-    </div>
-
-    <h2 style="margin-top: 3rem;">🍜 Flavors & ⛰️ Outdoors</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
-        <span class="tag">☕ 拿铁 (拒绝美式的酸苦)</span>
-        <span class="tag">🍲 湖北藕汤 & 热干面 (乡愁)</span>
-        <span class="tag">🥘 芬兰三文鱼</span>
-        <span class="tag" style="background: #266454; color: white;">🥾 徒步 & 爬山</span>
-        <span class="tag" style="background: #266454; color: white;">🌅 追逐日落</span>
-        <span class="tag">🧩 Jigsaw puzzles</span>
-    </div>
-
-    <div style="margin-top: 3rem; padding: 1.5rem; background: white; border-radius: 24px; border: 1px solid #edf5f2;">
-        <p style="line-height: 1.8; color: #4a756a; margin: 0; font-size: 1rem;">
-            <strong>MBTI: INFJ</strong> | 一个社恐但热爱分享的灵魂。在这个网页里，你看到的不仅是一个研究大气气溶胶的 PhD，更是一个真实、好奇且热爱生活的灵魂。
-        </p>
-    </div>
-</div> ```
+    
+        <div style="margin-top: 3rem; padding: 1.5rem; background: white; border-radius: 24px; border: 1px solid #edf5f2;">
+            <p style="line-height: 1.8; color: #4a756a; margin: 0; font-size: 1rem;">
+                <strong>MBTI: INFJ</strong> | 一个社恐但热爱分享的灵魂。在这个网页里，你看到的不仅是一个研究大气气溶胶的 PhD，更是一个真实、好奇且热爱生活的灵魂。
+            </p>
+        </div>
+    </div> 
 
     
     <footer>
